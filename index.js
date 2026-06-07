@@ -18,7 +18,7 @@ const client = new Client({
 });
 
 // CONFIGURACIÓN
-const TOKEN = "MTUxMzI0NzIwMjQyMjY4NTcwNg.Gy9fKg.sDjJQkUc2KSbrtneFcS4p__rzYYeNZwzYYBL8k";
+const TOKEN = "MTUxMzI0NzIwMjQyMjY4NTcwNg.G-9rlQ.ghkna4wVH9loTVkHb1nSpD3OVQ8tAwS5BuEF00";
 const ROL_VERIFICADO = "1513250945041956964";
 
 client.once('ready', async () => {
