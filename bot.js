@@ -5,9 +5,10 @@ const { Client, GatewayIntentBits, SlashCommandBuilder, REST, Routes } = require
 const PORT = 4207;
 const API_KEY = "18981HDKMNASD91331F"; // Puedes inventar la clave que quieras aquí
 
-// === CONFIGURACIÓN DE TU BOT DE DISCORD ===
-const DISCORD_TOKEN = "MTU0NTQ5MjEzNTAzMjEzMTY3NQ.Gx3Qud.QaT9theWq8xmosE721XJHgAuc9tnSRWhGKLJqs";
-const CLIENT_ID = "1545492135032131675";
+
+// No pegues tu token real aquí, déjalo exactamente así:
+const DISCORD_TOKEN = process.env.DISCORD_TOKEN;
+const CLIENT_ID = process.env.CLIENT_ID || "1545492135032131675";
 
 // Cola en memoria para almacenar comandos pendientes para Roblox
 let pendingActions = [];
